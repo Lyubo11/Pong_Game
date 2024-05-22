@@ -14,7 +14,9 @@ set(BUILD_EXAMPLES OFF CACHE INTERNAL "")
 FetchContent_MakeAvailable(raylib)
 
 # Our Project
-set(SOURCE_FILES main.cpp)
+set(SOURCE_FILES main.cpp
+        ball.cpp
+        ball.h)
 
 add_executable(${PROJECT_NAME} ${SOURCE_FILES})
 target_link_libraries(${PROJECT_NAME} raylib)
