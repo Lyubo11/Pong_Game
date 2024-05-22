@@ -7,8 +7,10 @@ extern const int screen_height;
 Ball::Ball(double x_position, double y_position, int x_pace, int y_pace, int radius) {
     this->x_position = x_position;
     this->y_position = y_position;
+
     this->x_pace = x_pace;
     this->y_pace = y_pace;
+
     this->radius = radius;
 }
 
