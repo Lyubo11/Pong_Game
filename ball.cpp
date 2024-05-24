@@ -32,3 +32,11 @@ void Ball::ResetBall() {
     y_position = screen_height / 2;
 }
 
+double Ball::getYPosition() const {
+    return y_position;
+}
+
+void Ball::setYPosition(double new_y_position) {
+    y_position = new_y_position;
+}
+

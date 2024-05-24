@@ -1,7 +1,6 @@
 #ifndef PONG_GAME_PADDLE_H
 #define PONG_GAME_PADDLE_H
 
-
 class Paddle {
 private:
     double x_position;
@@ -13,9 +12,7 @@ private:
     int movement_speed;
 
 public:
-    Paddle(double x_position, double y_position, double paddle_width, double paddle_height, int movement_speed);
     void DrawPaddle();
-    void UpdatePaddle();
     void LimitMovement();
 
     double getXPosition() const;

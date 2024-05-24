@@ -1,7 +1,8 @@
 #include <iostream>
 #include <raylib.h>
 #include "ball.h"
-#include "paddle.h"
+#include "player_paddle.h"
+#include "ai_paddle.h"
 
 extern const int screen_width = 800;
 extern const int screen_height = 600;
@@ -11,18 +12,21 @@ int main() {
     SetTargetFPS(60);
 
     Ball ball(screen_width / 2, screen_height / 2, 3, 3, 10);
-    Paddle player_1(10, screen_height / 2 - 10, 15, 85, 5);
+    PlayerPaddle player_paddle(10, screen_height / 2 - 10, 15, 85, 5);
+    AIPaddle ai_paddle(screen_width - 20, screen_height / 2 - 50, 15, 85, 3);
 
     while (!WindowShouldClose()) {
         ball.UpdateBall();
-        player_1.UpdatePaddle();
+        player_paddle.UpdatePlayerPaddle();
+        ai_paddle.UpdateAIPaddle(ball.getYPosition());
 
         BeginDrawing();
         ClearBackground(BEIGE);
 
         DrawText("Pong Game", screen_width / 2 - 55, screen_height / 2 - 15, 20, BROWN);
         ball.DrawBall();
-        player_1.DrawPaddle();
+        player_paddle.DrawPaddle();
+        ai_paddle.DrawPaddle();
 
         EndDrawing();
     }

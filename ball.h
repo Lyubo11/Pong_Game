@@ -1,7 +1,6 @@
 #ifndef PONG_GAME_BALL_H
 #define PONG_GAME_BALL_H
 
-
 class Ball {
 private:
     double x_position;
@@ -17,6 +16,10 @@ public:
     void DrawBall();
     void UpdateBall();
     void ResetBall();
+
+    double getYPosition() const;
+
+    void setYPosition(double new_y_position);
 };
 
 

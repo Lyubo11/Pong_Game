@@ -18,7 +18,11 @@ set(SOURCE_FILES main.cpp
         ball.cpp
         ball.h
         paddle.cpp
-        paddle.h)
+        paddle.h
+        ai_paddle.cpp
+        ai_paddle.h
+        player_paddle.cpp
+        player_paddle.h)
 
 add_executable(${PROJECT_NAME} ${SOURCE_FILES})
 target_link_libraries(${PROJECT_NAME} raylib)
