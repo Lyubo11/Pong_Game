@@ -13,10 +13,14 @@ int main() {
 
     Ball ball(screen_width / 2, screen_height / 2, 3, 3, 10);
     PlayerPaddle player_paddle(10, screen_height / 2 - 10, 15, 85, 5);
-    AIPaddle ai_paddle(screen_width - 20, screen_height / 2 - 50, 15, 85, 3);
+    AIPaddle ai_paddle(screen_width - 25, screen_height / 2 - 50, 15, 85, 3);
 
     while (!WindowShouldClose()) {
         ball.UpdateBall();
+
+        ball.DetectPaddleCollision(player_paddle);
+        ball.DetectPaddleCollision(ai_paddle);
+
         player_paddle.UpdatePlayerPaddle();
         ai_paddle.UpdateAIPaddle(ball.getYPosition());
 

@@ -4,7 +4,7 @@
 extern const int screen_width;
 extern const int screen_height;
 
-PlayerPaddle::PlayerPaddle(double x_position, double y_position, double paddle_width, double paddle_height, int movement_speed) {
+PlayerPaddle::PlayerPaddle(double x_position, double y_position, double paddle_width, double paddle_height, int movement_speed) : Paddle() {
     setXPosition(x_position);
     setYPosition(y_position);
 

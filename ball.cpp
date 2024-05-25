@@ -4,39 +4,79 @@
 extern const int screen_width;
 extern const int screen_height;
 
-Ball::Ball(double x_position, double y_position, int x_pace, int y_pace, int radius) {
-    this->x_position = x_position;
-    this->y_position = y_position;
+Ball::Ball(int x_position, int y_position, int x_pace, int y_pace, int radius) {
+    setXPosition(x_position);
+    setYPosition(y_position);
 
-    this->x_pace = x_pace;
-    this->y_pace = y_pace;
+    setXPace(x_pace);
+    setYPace(y_pace);
 
-    this->radius = radius;
+    setRadius(radius);
 }
 
-void Ball::DrawBall() {
-    DrawCircle(x_position, y_position, radius, BROWN);
+void Ball::DrawBall() const {
+    DrawCircle(getXPosition(), getYPosition(), (float)getRadius(), BROWN);
 }
 
 void Ball::UpdateBall() {
-    x_position += x_pace;
-    y_position += y_pace;
+    setXPosition(getXPosition() + getXPace());
+    setYPosition(getYPosition() + getYPace());
 
-    if ((y_position + radius >= screen_height) || (y_position - radius <= 0)){
-        y_pace *= -1;
+    if ((getYPosition() + getRadius() >= screen_height) || (getYPosition() - getRadius() <= 0)){
+        setYPace(getYPace() * -1);
     }
 }
 
 void Ball::ResetBall() {
-    x_position = screen_width / 2;
-    y_position = screen_height / 2;
+    setXPosition(screen_width / 2);
+    setYPosition(screen_height / 2);
 }
 
-double Ball::getYPosition() const {
+void Ball::DetectPaddleCollision(Paddle &paddle) {
+    if (CheckCollisionCircleRec({(float)getXPosition(), (float)getYPosition()}, (float)getRadius(), {(float)paddle.getXPosition(), (float)paddle.getYPosition(), (float)paddle.getPaddleWidth(), (float)paddle.getPaddleHeight()})) {
+        setXPace(getXPace() * -1);
+    }
+}
+
+
+int Ball::getXPosition() const {
+    return x_position;
+}
+
+int Ball::getYPosition() const {
     return y_position;
 }
 
-void Ball::setYPosition(double new_y_position) {
+int Ball::getXPace() const {
+    return x_pace;
+}
+
+int Ball::getYPace() const {
+    return y_pace;
+}
+
+int Ball::getRadius() const {
+    return radius;
+}
+
+
+void Ball::setXPosition(int new_x_position) {
+    x_position = new_x_position;
+}
+
+void Ball::setYPosition(int new_y_position) {
     y_position = new_y_position;
+}
+
+void Ball::setXPace(int new_x_pace) {
+    x_pace = new_x_pace;
+}
+
+void Ball::setYPace(int new_y_pace) {
+    y_pace = new_y_pace;
+}
+
+void Ball::setRadius(int new_radius) {
+    Ball::radius = new_radius;
 }
 

@@ -54,7 +54,7 @@ void Paddle::setMovementSpeed(int new_movement_speed) {
     movement_speed = new_movement_speed;
 }
 
-void Paddle::DrawPaddle() {
+void Paddle::DrawPaddle() const {
     DrawRectangleRec({static_cast<float>(getXPosition()), static_cast<float>(getYPosition()),
                       static_cast<float>(getPaddleWidth()), static_cast<float>(getPaddleHeight())}, DARKBROWN);
 }

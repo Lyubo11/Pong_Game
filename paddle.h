@@ -12,14 +12,15 @@ private:
     int movement_speed;
 
 public:
-    void DrawPaddle();
+    void DrawPaddle() const;
     void LimitMovement();
 
-    double getXPosition() const;
-    double getYPosition() const;
-    double getPaddleWidth() const;
-    double getPaddleHeight() const;
-    int getMovementSpeed() const;
+    // [[nodiscard]] so that getter function return values do not get discarded
+    [[nodiscard]] double getXPosition() const;
+    [[nodiscard]] double getYPosition() const;
+    [[nodiscard]] double getPaddleWidth() const;
+    [[nodiscard]] double getPaddleHeight() const;
+    [[nodiscard]] int getMovementSpeed() const;
 
     void setXPosition(double new_x_position);
     void setYPosition(double new_y_position);
