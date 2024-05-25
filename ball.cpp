@@ -1,8 +1,15 @@
 #include "ball.h"
 #include <raylib.h>
+#include <cstdlib>
 
 extern const int screen_width;
 extern const int screen_height;
+
+extern const int y_spawn_range;
+extern const int x_spawn_range;
+
+extern const int init_ball_x_speed;
+extern const int init_ball_y_speed;
 
 Ball::Ball(int x_position, int y_position, int x_pace, int y_pace, int radius) {
     setXPosition(x_position);
@@ -28,13 +35,28 @@ void Ball::UpdateBall() {
 }
 
 void Ball::ResetBall() {
-    setXPosition(screen_width / 2);
-    setYPosition(screen_height / 2);
+    setXPosition(rand() % (screen_width / 2 + x_spawn_range) + (screen_width / 2 - x_spawn_range));
+    setYPosition(rand() % (screen_height / 2 + y_spawn_range) + (screen_height / 2 - y_spawn_range));
+
+    setXPace(init_ball_x_speed);
+    setYPace(init_ball_y_speed);
 }
 
 void Ball::DetectPaddleCollision(Paddle &paddle) {
     if (CheckCollisionCircleRec({(float)getXPosition(), (float)getYPosition()}, (float)getRadius(), {(float)paddle.getXPosition(), (float)paddle.getYPosition(), (float)paddle.getPaddleWidth(), (float)paddle.getPaddleHeight()})) {
         setXPace(getXPace() * -1);
+        if (getXPace() < 0) {
+            setXPace(getXPace() - 1);
+        }
+        else {
+            setXPace(getXPace() + 1);
+        }
+        if (getYPace() < 0) {
+            setYPace(getYPace() - 1);
+        }
+        else {
+            setYPace(getYPace() + 1);
+        }
     }
 }
 
