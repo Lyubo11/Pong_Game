@@ -35,6 +35,8 @@ void Ball::UpdateBall() {
 }
 
 void Ball::ResetBall() {
+    /*setXPosition(screen_width / 2 + x_spawn_range);
+    setYPosition(screen_height / 2 + y_spawn_range);*/
     setXPosition(rand() % (screen_width / 2 + x_spawn_range) + (screen_width / 2 - x_spawn_range));
     setYPosition(rand() % (screen_height / 2 + y_spawn_range) + (screen_height / 2 - y_spawn_range));
 
