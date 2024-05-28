@@ -4,6 +4,11 @@
 extern const int screen_width;
 extern const int screen_height;
 
+void Paddle::DrawPaddle() const {
+    DrawRectangleRec({static_cast<float>(getXPosition()), static_cast<float>(getYPosition()),
+                      static_cast<float>(getPaddleWidth()), static_cast<float>(getPaddleHeight())}, DARKBROWN);
+}
+
 void Paddle::LimitMovement() {
     if (getYPosition() <= 0) {
         setYPosition(0);
@@ -53,9 +58,3 @@ void Paddle::setPaddleHeight(double new_paddle_height) {
 void Paddle::setMovementSpeed(int new_movement_speed) {
     movement_speed = new_movement_speed;
 }
-
-void Paddle::DrawPaddle() const {
-    DrawRectangleRec({static_cast<float>(getXPosition()), static_cast<float>(getYPosition()),
-                      static_cast<float>(getPaddleWidth()), static_cast<float>(getPaddleHeight())}, DARKBROWN);
-}
-
