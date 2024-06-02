@@ -3,6 +3,7 @@
 
 #include "paddle.h"
 
+// Ball class declaration
 class Ball {
 private:
     int x_position;

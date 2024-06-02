@@ -3,6 +3,7 @@
 
 #include "paddle.h"
 
+// Class definition for the PlayerPaddle which inherits from the Paddle class
 class PlayerPaddle : public Paddle {
 private:
     int up_key;

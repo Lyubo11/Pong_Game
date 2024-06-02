@@ -1,6 +1,7 @@
 #ifndef PONG_GAME_PADDLE_H
 #define PONG_GAME_PADDLE_H
 
+// Paddle class declaration
 class Paddle {
 private:
     double x_position;
