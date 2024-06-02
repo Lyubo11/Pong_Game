@@ -49,45 +49,77 @@ cmake_ninja_workdir = D$:/КН/Първи$ курс/Втори$ семестър
 
 build cmake_object_order_depends_target_Pong_Game: phony || cmake_object_order_depends_target_glfw cmake_object_order_depends_target_raylib
 
-build CMakeFiles/Pong_Game.dir/main.cpp.obj: CXX_COMPILER__Pong_Game_unscanned_Debug D$:/КН/Първи$ курс/Втори$ семестър/ООП/Курсов$ проект/Pong$ Game/main.cpp || cmake_object_order_depends_target_Pong_Game
+build CMakeFiles/Pong_Game.dir/source-files/main.cpp.obj: CXX_COMPILER__Pong_Game_unscanned_Debug D$:/КН/Първи$ курс/Втори$ семестър/ООП/Курсов$ проект/Pong$ Game/source-files/main.cpp || cmake_object_order_depends_target_Pong_Game
   DEFINES = -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP
-  DEP_FILE = CMakeFiles\Pong_Game.dir\main.cpp.obj.d
+  DEP_FILE = CMakeFiles\Pong_Game.dir\source-files\main.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
   INCLUDES = -I"D:/КН/Първи курс/Втори семестър/ООП/Курсов проект/Pong Game/cmake-build-debug/_deps/raylib-src/src" -I"D:/КН/Първи курс/Втори семестър/ООП/Курсов проект/Pong Game/cmake-build-debug/_deps/raylib-src/src/external/glfw/include"
   OBJECT_DIR = CMakeFiles\Pong_Game.dir
-  OBJECT_FILE_DIR = CMakeFiles\Pong_Game.dir
+  OBJECT_FILE_DIR = CMakeFiles\Pong_Game.dir\source-files
 
-build CMakeFiles/Pong_Game.dir/ball.cpp.obj: CXX_COMPILER__Pong_Game_unscanned_Debug D$:/КН/Първи$ курс/Втори$ семестър/ООП/Курсов$ проект/Pong$ Game/ball.cpp || cmake_object_order_depends_target_Pong_Game
+build CMakeFiles/Pong_Game.dir/source-files/ball.cpp.obj: CXX_COMPILER__Pong_Game_unscanned_Debug D$:/КН/Първи$ курс/Втори$ семестър/ООП/Курсов$ проект/Pong$ Game/source-files/ball.cpp || cmake_object_order_depends_target_Pong_Game
   DEFINES = -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP
-  DEP_FILE = CMakeFiles\Pong_Game.dir\ball.cpp.obj.d
+  DEP_FILE = CMakeFiles\Pong_Game.dir\source-files\ball.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
   INCLUDES = -I"D:/КН/Първи курс/Втори семестър/ООП/Курсов проект/Pong Game/cmake-build-debug/_deps/raylib-src/src" -I"D:/КН/Първи курс/Втори семестър/ООП/Курсов проект/Pong Game/cmake-build-debug/_deps/raylib-src/src/external/glfw/include"
   OBJECT_DIR = CMakeFiles\Pong_Game.dir
-  OBJECT_FILE_DIR = CMakeFiles\Pong_Game.dir
+  OBJECT_FILE_DIR = CMakeFiles\Pong_Game.dir\source-files
 
-build CMakeFiles/Pong_Game.dir/paddle.cpp.obj: CXX_COMPILER__Pong_Game_unscanned_Debug D$:/КН/Първи$ курс/Втори$ семестър/ООП/Курсов$ проект/Pong$ Game/paddle.cpp || cmake_object_order_depends_target_Pong_Game
+build CMakeFiles/Pong_Game.dir/source-files/paddle.cpp.obj: CXX_COMPILER__Pong_Game_unscanned_Debug D$:/КН/Първи$ курс/Втори$ семестър/ООП/Курсов$ проект/Pong$ Game/source-files/paddle.cpp || cmake_object_order_depends_target_Pong_Game
   DEFINES = -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP
-  DEP_FILE = CMakeFiles\Pong_Game.dir\paddle.cpp.obj.d
+  DEP_FILE = CMakeFiles\Pong_Game.dir\source-files\paddle.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
   INCLUDES = -I"D:/КН/Първи курс/Втори семестър/ООП/Курсов проект/Pong Game/cmake-build-debug/_deps/raylib-src/src" -I"D:/КН/Първи курс/Втори семестър/ООП/Курсов проект/Pong Game/cmake-build-debug/_deps/raylib-src/src/external/glfw/include"
   OBJECT_DIR = CMakeFiles\Pong_Game.dir
-  OBJECT_FILE_DIR = CMakeFiles\Pong_Game.dir
+  OBJECT_FILE_DIR = CMakeFiles\Pong_Game.dir\source-files
 
-build CMakeFiles/Pong_Game.dir/ai_paddle.cpp.obj: CXX_COMPILER__Pong_Game_unscanned_Debug D$:/КН/Първи$ курс/Втори$ семестър/ООП/Курсов$ проект/Pong$ Game/ai_paddle.cpp || cmake_object_order_depends_target_Pong_Game
+build CMakeFiles/Pong_Game.dir/source-files/ai_paddle.cpp.obj: CXX_COMPILER__Pong_Game_unscanned_Debug D$:/КН/Първи$ курс/Втори$ семестър/ООП/Курсов$ проект/Pong$ Game/source-files/ai_paddle.cpp || cmake_object_order_depends_target_Pong_Game
   DEFINES = -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP
-  DEP_FILE = CMakeFiles\Pong_Game.dir\ai_paddle.cpp.obj.d
+  DEP_FILE = CMakeFiles\Pong_Game.dir\source-files\ai_paddle.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
   INCLUDES = -I"D:/КН/Първи курс/Втори семестър/ООП/Курсов проект/Pong Game/cmake-build-debug/_deps/raylib-src/src" -I"D:/КН/Първи курс/Втори семестър/ООП/Курсов проект/Pong Game/cmake-build-debug/_deps/raylib-src/src/external/glfw/include"
   OBJECT_DIR = CMakeFiles\Pong_Game.dir
-  OBJECT_FILE_DIR = CMakeFiles\Pong_Game.dir
+  OBJECT_FILE_DIR = CMakeFiles\Pong_Game.dir\source-files
 
-build CMakeFiles/Pong_Game.dir/player_paddle.cpp.obj: CXX_COMPILER__Pong_Game_unscanned_Debug D$:/КН/Първи$ курс/Втори$ семестър/ООП/Курсов$ проект/Pong$ Game/player_paddle.cpp || cmake_object_order_depends_target_Pong_Game
+build CMakeFiles/Pong_Game.dir/source-files/player_paddle.cpp.obj: CXX_COMPILER__Pong_Game_unscanned_Debug D$:/КН/Първи$ курс/Втори$ семестър/ООП/Курсов$ проект/Pong$ Game/source-files/player_paddle.cpp || cmake_object_order_depends_target_Pong_Game
   DEFINES = -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP
-  DEP_FILE = CMakeFiles\Pong_Game.dir\player_paddle.cpp.obj.d
+  DEP_FILE = CMakeFiles\Pong_Game.dir\source-files\player_paddle.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
   INCLUDES = -I"D:/КН/Първи курс/Втори семестър/ООП/Курсов проект/Pong Game/cmake-build-debug/_deps/raylib-src/src" -I"D:/КН/Първи курс/Втори семестър/ООП/Курсов проект/Pong Game/cmake-build-debug/_deps/raylib-src/src/external/glfw/include"
   OBJECT_DIR = CMakeFiles\Pong_Game.dir
-  OBJECT_FILE_DIR = CMakeFiles\Pong_Game.dir
+  OBJECT_FILE_DIR = CMakeFiles\Pong_Game.dir\source-files
+
+build CMakeFiles/Pong_Game.dir/test/paddle_test.cpp.obj: CXX_COMPILER__Pong_Game_unscanned_Debug D$:/КН/Първи$ курс/Втори$ семестър/ООП/Курсов$ проект/Pong$ Game/test/paddle_test.cpp || cmake_object_order_depends_target_Pong_Game
+  DEFINES = -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP
+  DEP_FILE = CMakeFiles\Pong_Game.dir\test\paddle_test.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -I"D:/КН/Първи курс/Втори семестър/ООП/Курсов проект/Pong Game/cmake-build-debug/_deps/raylib-src/src" -I"D:/КН/Първи курс/Втори семестър/ООП/Курсов проект/Pong Game/cmake-build-debug/_deps/raylib-src/src/external/glfw/include"
+  OBJECT_DIR = CMakeFiles\Pong_Game.dir
+  OBJECT_FILE_DIR = CMakeFiles\Pong_Game.dir\test
+
+build CMakeFiles/Pong_Game.dir/test/player_paddle_test.cpp.obj: CXX_COMPILER__Pong_Game_unscanned_Debug D$:/КН/Първи$ курс/Втори$ семестър/ООП/Курсов$ проект/Pong$ Game/test/player_paddle_test.cpp || cmake_object_order_depends_target_Pong_Game
+  DEFINES = -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP
+  DEP_FILE = CMakeFiles\Pong_Game.dir\test\player_paddle_test.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -I"D:/КН/Първи курс/Втори семестър/ООП/Курсов проект/Pong Game/cmake-build-debug/_deps/raylib-src/src" -I"D:/КН/Първи курс/Втори семестър/ООП/Курсов проект/Pong Game/cmake-build-debug/_deps/raylib-src/src/external/glfw/include"
+  OBJECT_DIR = CMakeFiles\Pong_Game.dir
+  OBJECT_FILE_DIR = CMakeFiles\Pong_Game.dir\test
+
+build CMakeFiles/Pong_Game.dir/test/ai_paddle_test.cpp.obj: CXX_COMPILER__Pong_Game_unscanned_Debug D$:/КН/Първи$ курс/Втори$ семестър/ООП/Курсов$ проект/Pong$ Game/test/ai_paddle_test.cpp || cmake_object_order_depends_target_Pong_Game
+  DEFINES = -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP
+  DEP_FILE = CMakeFiles\Pong_Game.dir\test\ai_paddle_test.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -I"D:/КН/Първи курс/Втори семестър/ООП/Курсов проект/Pong Game/cmake-build-debug/_deps/raylib-src/src" -I"D:/КН/Първи курс/Втори семестър/ООП/Курсов проект/Pong Game/cmake-build-debug/_deps/raylib-src/src/external/glfw/include"
+  OBJECT_DIR = CMakeFiles\Pong_Game.dir
+  OBJECT_FILE_DIR = CMakeFiles\Pong_Game.dir\test
+
+build CMakeFiles/Pong_Game.dir/test/ball_test.cpp.obj: CXX_COMPILER__Pong_Game_unscanned_Debug D$:/КН/Първи$ курс/Втори$ семестър/ООП/Курсов$ проект/Pong$ Game/test/ball_test.cpp || cmake_object_order_depends_target_Pong_Game
+  DEFINES = -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP
+  DEP_FILE = CMakeFiles\Pong_Game.dir\test\ball_test.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -I"D:/КН/Първи курс/Втори семестър/ООП/Курсов проект/Pong Game/cmake-build-debug/_deps/raylib-src/src" -I"D:/КН/Първи курс/Втори семестър/ООП/Курсов проект/Pong Game/cmake-build-debug/_deps/raylib-src/src/external/glfw/include"
+  OBJECT_DIR = CMakeFiles\Pong_Game.dir
+  OBJECT_FILE_DIR = CMakeFiles\Pong_Game.dir\test
 
 
 # =============================================================================
@@ -97,7 +129,7 @@ build CMakeFiles/Pong_Game.dir/player_paddle.cpp.obj: CXX_COMPILER__Pong_Game_un
 #############################################
 # Link the executable Pong_Game.exe
 
-build Pong_Game.exe: CXX_EXECUTABLE_LINKER__Pong_Game_Debug CMakeFiles/Pong_Game.dir/main.cpp.obj CMakeFiles/Pong_Game.dir/ball.cpp.obj CMakeFiles/Pong_Game.dir/paddle.cpp.obj CMakeFiles/Pong_Game.dir/ai_paddle.cpp.obj CMakeFiles/Pong_Game.dir/player_paddle.cpp.obj | _deps/raylib-build/raylib/libraylib.a _deps/raylib-build/raylib/external/glfw/src/libglfw3.a || _deps/raylib-build/raylib/external/glfw/src/libglfw3.a _deps/raylib-build/raylib/libraylib.a
+build Pong_Game.exe: CXX_EXECUTABLE_LINKER__Pong_Game_Debug CMakeFiles/Pong_Game.dir/source-files/main.cpp.obj CMakeFiles/Pong_Game.dir/source-files/ball.cpp.obj CMakeFiles/Pong_Game.dir/source-files/paddle.cpp.obj CMakeFiles/Pong_Game.dir/source-files/ai_paddle.cpp.obj CMakeFiles/Pong_Game.dir/source-files/player_paddle.cpp.obj CMakeFiles/Pong_Game.dir/test/paddle_test.cpp.obj CMakeFiles/Pong_Game.dir/test/player_paddle_test.cpp.obj CMakeFiles/Pong_Game.dir/test/ai_paddle_test.cpp.obj CMakeFiles/Pong_Game.dir/test/ball_test.cpp.obj | _deps/raylib-build/raylib/libraylib.a _deps/raylib-build/raylib/external/glfw/src/libglfw3.a || _deps/raylib-build/raylib/external/glfw/src/libglfw3.a _deps/raylib-build/raylib/libraylib.a
   FLAGS = -g
   LINK_LIBRARIES = _deps/raylib-build/raylib/libraylib.a  -lopengl32  -lglu32  -lwinmm  _deps/raylib-build/raylib/external/glfw/src/libglfw3.a  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\Pong_Game.dir

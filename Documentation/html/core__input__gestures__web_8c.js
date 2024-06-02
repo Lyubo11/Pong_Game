@@ -1,0 +1,27 @@
+var core__input__gestures__web_8c =
+[
+    [ "GESTURE_LOG_SIZE", "core__input__gestures__web_8c.html#adc2781035f79ddd478ce1b04ddf352e6", null ],
+    [ "MAX_TOUCH_COUNT", "core__input__gestures__web_8c.html#aafc973d0a6813770d46a2bb36040ec35", null ],
+    [ "GetGestureColor", "core__input__gestures__web_8c.html#a21ef4cf54e26ca4e1e74cb060196ce20", null ],
+    [ "GetGestureName", "core__input__gestures__web_8c.html#ae351ea1884abcfcd3aa9b41d17ecca87", null ],
+    [ "main", "core__input__gestures__web_8c.html#a840291bc02cba5474a4cb46a9b9566fe", null ],
+    [ "Update", "core__input__gestures__web_8c.html#af8375debd1361b3f1f2154df2a07924c", null ],
+    [ "angleLength", "core__input__gestures__web_8c.html#aa8e3f5f7cd55795c7e7cba6d8523877b", null ],
+    [ "currentAngleDegrees", "core__input__gestures__web_8c.html#a274a2931318b3dc641fe74e85f2f63bd", null ],
+    [ "currentAngleStr", "core__input__gestures__web_8c.html#aa626f2bde61b6313bfd29e02f8906c4c", null ],
+    [ "finalVector", "core__input__gestures__web_8c.html#a9bbc65e35c215008f631bd149b5bb11a", null ],
+    [ "gestureColor", "core__input__gestures__web_8c.html#ab2c1e96700216cc47e0a8f960b921272", null ],
+    [ "gestureLog", "core__input__gestures__web_8c.html#a1a8d2216779674c95b0b70728ac7f1c6", null ],
+    [ "gestureLogIndex", "core__input__gestures__web_8c.html#a2c30b80165a03f58e0b4fc8357276d9c", null ],
+    [ "gestureLogPosition", "core__input__gestures__web_8c.html#added687fac29e071ac85ed623e411f33", null ],
+    [ "lastGesture", "core__input__gestures__web_8c.html#a930274e4240d1c5e9062e06808637363", null ],
+    [ "lastGesturePosition", "core__input__gestures__web_8c.html#a86c8e9d2a642160a20221e1dccbdb300", null ],
+    [ "logButton1", "core__input__gestures__web_8c.html#ab1885abf1b82ccb11d9bd98927ba1f0c", null ],
+    [ "logButton2", "core__input__gestures__web_8c.html#a67f76a4ce3e70a43528c8dff301ab8dc", null ],
+    [ "logMode", "core__input__gestures__web_8c.html#a0ee4ef040fc7c9e0de215b0950357711", null ],
+    [ "messagePosition", "core__input__gestures__web_8c.html#a08da8b12033d092cdfbe7b3d21fd24d0", null ],
+    [ "previousGesture", "core__input__gestures__web_8c.html#a77feeb0bb1713b43cab73c6b4fed935f", null ],
+    [ "protractorPosition", "core__input__gestures__web_8c.html#a3be2febb9eba4f6f03d74ec63ced5ad2", null ],
+    [ "screenHeight", "core__input__gestures__web_8c.html#a8897ff6127a397a8ee4ea76976f8534d", null ],
+    [ "screenWidth", "core__input__gestures__web_8c.html#ae50cb92a78d9e0a4f4bd718fc02bd294", null ]
+];

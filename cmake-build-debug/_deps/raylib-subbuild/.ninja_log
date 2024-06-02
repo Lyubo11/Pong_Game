@@ -1,0 +1,23 @@
+# ninja log v5
+1	40	7380419681361739	raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-mkdir	91fa3c0c35cd6159
+1	40	7380419681361739	D:/КН/Първи курс/Втори семестър/ООП/Курсов проект/Pong Game/cmake-build-debug/_deps/raylib-subbuild/raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-mkdir	91fa3c0c35cd6159
+40	3074	7380419711699049	D:/КН/Първи курс/Втори семестър/ООП/Курсов проект/Pong Game/cmake-build-debug/_deps/raylib-subbuild/raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-download	72af708543825c71
+40	3074	7380419711699049	raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-download	72af708543825c71
+40	3074	7380419711699049	raylib-populate-prefix/src/5.0.tar.gz	72af708543825c71
+3074	3108	7380419712038170	raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-update	de35181b5c18b17d
+40	3074	7380419711699049	D:/КН/Първи курс/Втори семестър/ООП/Курсов проект/Pong Game/cmake-build-debug/_deps/raylib-subbuild/raylib-populate-prefix/src/5.0.tar.gz	72af708543825c71
+3074	3108	7380419712038170	D:/КН/Първи курс/Втори семестър/ООП/Курсов проект/Pong Game/cmake-build-debug/_deps/raylib-subbuild/raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-update	de35181b5c18b17d
+3108	3140	7380419712358918	raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-patch	8e5cc3668dc5e311
+3108	3140	7380419712358918	D:/КН/Първи курс/Втори семестър/ООП/Курсов проект/Pong Game/cmake-build-debug/_deps/raylib-subbuild/raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-patch	8e5cc3668dc5e311
+3205	3238	7380419713350165	D:/КН/Първи курс/Втори семестър/ООП/Курсов проект/Pong Game/cmake-build-debug/_deps/raylib-subbuild/raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-install	ab98dbbda37880ea
+3140	3172	7380419712682282	raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-configure	7e649de0cb37487
+3140	3172	7380419712682282	D:/КН/Първи курс/Втори семестър/ООП/Курсов проект/Pong Game/cmake-build-debug/_deps/raylib-subbuild/raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-configure	7e649de0cb37487
+3172	3205	7380419713011073	raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-build	b00201cd158b10fd
+3172	3205	7380419713011073	D:/КН/Първи курс/Втори семестър/ООП/Курсов проект/Pong Game/cmake-build-debug/_deps/raylib-subbuild/raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-build	b00201cd158b10fd
+3205	3238	7380419713350165	raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-install	ab98dbbda37880ea
+3238	3271	7380419713676359	raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-test	58fce23e95dd86ce
+3238	3271	7380419713676359	D:/КН/Първи курс/Втори семестър/ООП/Курсов проект/Pong Game/cmake-build-debug/_deps/raylib-subbuild/raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-test	58fce23e95dd86ce
+3271	3315	7380419714115187	CMakeFiles/raylib-populate-complete	f4dac31d174d1199
+3271	3315	7380419714115187	raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-done	f4dac31d174d1199
+3271	3315	7380419714115187	D:/КН/Първи курс/Втори семестър/ООП/Курсов проект/Pong Game/cmake-build-debug/_deps/raylib-subbuild/CMakeFiles/raylib-populate-complete	f4dac31d174d1199
+3271	3315	7380419714115187	D:/КН/Първи курс/Втори семестър/ООП/Курсов проект/Pong Game/cmake-build-debug/_deps/raylib-subbuild/raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-done	f4dac31d174d1199

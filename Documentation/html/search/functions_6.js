@@ -1,0 +1,19 @@
+var searchData=
+[
+  ['get_5factive_5fcontexts_0',['get_active_contexts',['../structdoctest_1_1_i_reporter.html#ad34f2f1954ff43b6e8fe2dc595cec53a',1,'doctest::IReporter']]],
+  ['get_5fnum_5factive_5fcontexts_1',['get_num_active_contexts',['../structdoctest_1_1_i_reporter.html#a7d520de46d9104c0eeb02375fabad32d',1,'doctest::IReporter']]],
+  ['get_5fnum_5fstringified_5fcontexts_2',['get_num_stringified_contexts',['../structdoctest_1_1_i_reporter.html#ac8b96fef046edc609a3374a61b84797d',1,'doctest::IReporter']]],
+  ['get_5fstringified_5fcontexts_3',['get_stringified_contexts',['../structdoctest_1_1_i_reporter.html#a6db31e528efe08c9bc9b4037a2143c3a',1,'doctest::IReporter']]],
+  ['getcontextoptions_4',['getContextOptions',['../namespacedoctest.html#a13c02a469cfc2264d547fc0fc3a55569',1,'doctest']]],
+  ['getcurrenttestsuite_5',['getCurrentTestSuite',['../namespacedoctest__detail__test__suite__ns.html#a63d04c2e0ba35dff1e33cf0a24ec66c8',1,'doctest_detail_test_suite_ns']]],
+  ['getdownkey_6',['getDownKey',['../class_player_paddle.html#af2d6767b01c7356ee9441e734191c718',1,'PlayerPaddle']]],
+  ['getmovementspeed_7',['getMovementSpeed',['../class_paddle.html#aed2522394f9ba0eff028695598983bde',1,'Paddle']]],
+  ['getpaddleheight_8',['getPaddleHeight',['../class_paddle.html#aa98407bd9da467a5da7e7c03ccec28ec',1,'Paddle']]],
+  ['getpaddlewidth_9',['getPaddleWidth',['../class_paddle.html#abd52571770592636fe710dfbab3b9ab0',1,'Paddle']]],
+  ['getradius_10',['getRadius',['../class_ball.html#a2e1968e0dded90a7142858f8fc82838d',1,'Ball']]],
+  ['getupkey_11',['getUpKey',['../class_player_paddle.html#a409800cb6154d149cbc5c53f4f96ec9b',1,'PlayerPaddle']]],
+  ['getxpace_12',['getXPace',['../class_ball.html#a05b1e7b66f14de7aa7261fe31fa46438',1,'Ball']]],
+  ['getxposition_13',['getXPosition',['../class_ball.html#a1e44a60f6bedb9a27f23a682c7db31c6',1,'Ball::getXPosition()'],['../class_paddle.html#ae4560ba253039867226301d6c4fb3e2c',1,'Paddle::getXPosition()']]],
+  ['getypace_14',['getYPace',['../class_ball.html#a458bd5668e13f456d3ba7273608a0eb2',1,'Ball']]],
+  ['getyposition_15',['getYPosition',['../class_ball.html#aa3b448f755ee19d8bca9d4fcce00e48a',1,'Ball::getYPosition()'],['../class_paddle.html#ac2090020acc9949616f22782b8507926',1,'Paddle::getYPosition()']]]
+];

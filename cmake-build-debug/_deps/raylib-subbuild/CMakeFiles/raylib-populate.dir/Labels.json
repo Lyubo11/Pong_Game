@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "D:/\u041a\u041d/\u041f\u044a\u0440\u0432\u0438 \u043a\u0443\u0440\u0441/\u0412\u0442\u043e\u0440\u0438 \u0441\u0435\u043c\u0435\u0441\u0442\u044a\u0440/\u041e\u041e\u041f/\u041a\u0443\u0440\u0441\u043e\u0432 \u043f\u0440\u043e\u0435\u043a\u0442/Pong Game/cmake-build-debug/_deps/raylib-subbuild/CMakeFiles/raylib-populate"
+		},
+		{
+			"file" : "D:/\u041a\u041d/\u041f\u044a\u0440\u0432\u0438 \u043a\u0443\u0440\u0441/\u0412\u0442\u043e\u0440\u0438 \u0441\u0435\u043c\u0435\u0441\u0442\u044a\u0440/\u041e\u041e\u041f/\u041a\u0443\u0440\u0441\u043e\u0432 \u043f\u0440\u043e\u0435\u043a\u0442/Pong Game/cmake-build-debug/_deps/raylib-subbuild/CMakeFiles/raylib-populate.rule"
+		},
+		{
+			"file" : "D:/\u041a\u041d/\u041f\u044a\u0440\u0432\u0438 \u043a\u0443\u0440\u0441/\u0412\u0442\u043e\u0440\u0438 \u0441\u0435\u043c\u0435\u0441\u0442\u044a\u0440/\u041e\u041e\u041f/\u041a\u0443\u0440\u0441\u043e\u0432 \u043f\u0440\u043e\u0435\u043a\u0442/Pong Game/cmake-build-debug/_deps/raylib-subbuild/CMakeFiles/raylib-populate-complete.rule"
+		},
+		{
+			"file" : "D:/\u041a\u041d/\u041f\u044a\u0440\u0432\u0438 \u043a\u0443\u0440\u0441/\u0412\u0442\u043e\u0440\u0438 \u0441\u0435\u043c\u0435\u0441\u0442\u044a\u0440/\u041e\u041e\u041f/\u041a\u0443\u0440\u0441\u043e\u0432 \u043f\u0440\u043e\u0435\u043a\u0442/Pong Game/cmake-build-debug/_deps/raylib-subbuild/raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-build.rule"
+		},
+		{
+			"file" : "D:/\u041a\u041d/\u041f\u044a\u0440\u0432\u0438 \u043a\u0443\u0440\u0441/\u0412\u0442\u043e\u0440\u0438 \u0441\u0435\u043c\u0435\u0441\u0442\u044a\u0440/\u041e\u041e\u041f/\u041a\u0443\u0440\u0441\u043e\u0432 \u043f\u0440\u043e\u0435\u043a\u0442/Pong Game/cmake-build-debug/_deps/raylib-subbuild/raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-configure.rule"
+		},
+		{
+			"file" : "D:/\u041a\u041d/\u041f\u044a\u0440\u0432\u0438 \u043a\u0443\u0440\u0441/\u0412\u0442\u043e\u0440\u0438 \u0441\u0435\u043c\u0435\u0441\u0442\u044a\u0440/\u041e\u041e\u041f/\u041a\u0443\u0440\u0441\u043e\u0432 \u043f\u0440\u043e\u0435\u043a\u0442/Pong Game/cmake-build-debug/_deps/raylib-subbuild/raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-download.rule"
+		},
+		{
+			"file" : "D:/\u041a\u041d/\u041f\u044a\u0440\u0432\u0438 \u043a\u0443\u0440\u0441/\u0412\u0442\u043e\u0440\u0438 \u0441\u0435\u043c\u0435\u0441\u0442\u044a\u0440/\u041e\u041e\u041f/\u041a\u0443\u0440\u0441\u043e\u0432 \u043f\u0440\u043e\u0435\u043a\u0442/Pong Game/cmake-build-debug/_deps/raylib-subbuild/raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-install.rule"
+		},
+		{
+			"file" : "D:/\u041a\u041d/\u041f\u044a\u0440\u0432\u0438 \u043a\u0443\u0440\u0441/\u0412\u0442\u043e\u0440\u0438 \u0441\u0435\u043c\u0435\u0441\u0442\u044a\u0440/\u041e\u041e\u041f/\u041a\u0443\u0440\u0441\u043e\u0432 \u043f\u0440\u043e\u0435\u043a\u0442/Pong Game/cmake-build-debug/_deps/raylib-subbuild/raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-mkdir.rule"
+		},
+		{
+			"file" : "D:/\u041a\u041d/\u041f\u044a\u0440\u0432\u0438 \u043a\u0443\u0440\u0441/\u0412\u0442\u043e\u0440\u0438 \u0441\u0435\u043c\u0435\u0441\u0442\u044a\u0440/\u041e\u041e\u041f/\u041a\u0443\u0440\u0441\u043e\u0432 \u043f\u0440\u043e\u0435\u043a\u0442/Pong Game/cmake-build-debug/_deps/raylib-subbuild/raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-patch.rule"
+		},
+		{
+			"file" : "D:/\u041a\u041d/\u041f\u044a\u0440\u0432\u0438 \u043a\u0443\u0440\u0441/\u0412\u0442\u043e\u0440\u0438 \u0441\u0435\u043c\u0435\u0441\u0442\u044a\u0440/\u041e\u041e\u041f/\u041a\u0443\u0440\u0441\u043e\u0432 \u043f\u0440\u043e\u0435\u043a\u0442/Pong Game/cmake-build-debug/_deps/raylib-subbuild/raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-test.rule"
+		},
+		{
+			"file" : "D:/\u041a\u041d/\u041f\u044a\u0440\u0432\u0438 \u043a\u0443\u0440\u0441/\u0412\u0442\u043e\u0440\u0438 \u0441\u0435\u043c\u0435\u0441\u0442\u044a\u0440/\u041e\u041e\u041f/\u041a\u0443\u0440\u0441\u043e\u0432 \u043f\u0440\u043e\u0435\u043a\u0442/Pong Game/cmake-build-debug/_deps/raylib-subbuild/raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"raylib-populate"
+		],
+		"name" : "raylib-populate"
+	}
+}

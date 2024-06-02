@@ -1,0 +1,14 @@
+# Target labels
+ raylib-populate
+# Source files and their labels
+D:/КН/Първи курс/Втори семестър/ООП/Курсов проект/Pong Game/cmake-build-debug/_deps/raylib-subbuild/CMakeFiles/raylib-populate
+D:/КН/Първи курс/Втори семестър/ООП/Курсов проект/Pong Game/cmake-build-debug/_deps/raylib-subbuild/CMakeFiles/raylib-populate.rule
+D:/КН/Първи курс/Втори семестър/ООП/Курсов проект/Pong Game/cmake-build-debug/_deps/raylib-subbuild/CMakeFiles/raylib-populate-complete.rule
+D:/КН/Първи курс/Втори семестър/ООП/Курсов проект/Pong Game/cmake-build-debug/_deps/raylib-subbuild/raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-build.rule
+D:/КН/Първи курс/Втори семестър/ООП/Курсов проект/Pong Game/cmake-build-debug/_deps/raylib-subbuild/raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-configure.rule
+D:/КН/Първи курс/Втори семестър/ООП/Курсов проект/Pong Game/cmake-build-debug/_deps/raylib-subbuild/raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-download.rule
+D:/КН/Първи курс/Втори семестър/ООП/Курсов проект/Pong Game/cmake-build-debug/_deps/raylib-subbuild/raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-install.rule
+D:/КН/Първи курс/Втори семестър/ООП/Курсов проект/Pong Game/cmake-build-debug/_deps/raylib-subbuild/raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-mkdir.rule
+D:/КН/Първи курс/Втори семестър/ООП/Курсов проект/Pong Game/cmake-build-debug/_deps/raylib-subbuild/raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-patch.rule
+D:/КН/Първи курс/Втори семестър/ООП/Курсов проект/Pong Game/cmake-build-debug/_deps/raylib-subbuild/raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-test.rule
+D:/КН/Първи курс/Втори семестър/ООП/Курсов проект/Pong Game/cmake-build-debug/_deps/raylib-subbuild/raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-update.rule
