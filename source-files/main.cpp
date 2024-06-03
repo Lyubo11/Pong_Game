@@ -10,42 +10,122 @@ Extern constant variable for screen dimensions (screen width)
 extern const int screen_width = 800;
 ~~~
 */
-// Constants for screen dimensions
 extern const int screen_width = 800;
+
+/**
+Extern constant variable for screen dimensions (screen height)
+~~~.cpp
+extern const int screen_height = 600;
+~~~
+*/
 extern const int screen_height = 600;
 
-// Constants for ball spawn range
+/**
+Extern constant variable for ball spawn range (x)
+~~~.cpp
 extern const int x_spawn_range = 20;
+~~~
+*/
+extern const int x_spawn_range = 20;
+
+/**
+Extern constant variable for ball spawn range (y)
+~~~.cpp
+extern const int y_spawn_range = 20;
+~~~
+*/
 extern const int y_spawn_range = 20;
 
-// Initial speed for the ball
+/**
+Extern constant variable for initial speed for the ball (x speed)
+~~~.cpp
 extern const int init_ball_x_speed = rand() % 3 + 1;
+~~~
+*/
+extern const int init_ball_x_speed = rand() % 3 + 1;
+
+/**
+Extern constant variable for initial speed for the ball (y speed)
+~~~.cpp
+extern const int init_ball_y_speed = rand() % 3 + 1;
+~~~
+*/
 extern const int init_ball_y_speed = rand() % 3 + 1;
 
-// Winning score constant
+/**
+Constant variable for winning score
+~~~.cpp
+const int winning_score = 10;
+~~~
+*/
 const int winning_score = 10;
 
-// Player scores
+/**
+Variable for left player score
+~~~.cpp
 int left_player_score = 0;
+~~~
+*/
+int left_player_score = 0;
+
+/**
+Variable for right player score
+~~~.cpp
+int right_player_score = 0;
+~~~
+*/
 int right_player_score = 0;
 
-// Game mode indicators
-bool game_mode = false;         // false for PVP, true for Player vs AI
-bool mode_selected = false;     // Check if the game mode is selected
+/**
+Variable for game mode (false for PVP, true for Player vs AI)
+~~~.cpp
+bool game_mode = false;
+~~~
+*/
+bool game_mode = false;
+
+/**
+Variable for checking if mode is selected
+~~~.cpp
+bool mode_selected = false;
+~~~
+*/
+bool mode_selected = false;
 
 
-// Function to draw a button with text
+/**
+Function to draw a button with text.
+
+@param text The text to display on the button.
+@param rec The rectangle representing the button's position and size.
+@param color The color of the button.
+*/
 void DrawButton(const char* text, Rectangle rec, Color color) {
     DrawRectangleRec(rec, color);
     DrawText(text, rec.x + rec.width / 2 - MeasureText(text, 20) / 2, rec.y + rec.height / 2 - 10, 20, WHITE);
 }
 
-// Function to check if a button is pressed
+/**
+Function to check if a button is pressed.
+
+@param rec The rectangle representing the button's position and size.
+
+@return true if the button is pressed, false otherwise.
+*/
 bool IsButtonPressed(Rectangle rec) {
     return (CheckCollisionPointRec(GetMousePosition(), rec) && IsMouseButtonPressed(MOUSE_BUTTON_LEFT));
 }
 
+/**
+The main function where the program starts execution.
 
+This function initializes the game window, sets up the game objects (ball and paddles),
+and enters the main game loop. The game loop handles game mode selection, updates
+game objects, checks for collisions and scoring, and renders the game frame by frame.
+The game continues running until the window is closed by the user.
+
+@return Exit status of the program.
+*/
 int main() {
     // Initializing the window
     InitWindow(screen_width, screen_height, "Pong Game");

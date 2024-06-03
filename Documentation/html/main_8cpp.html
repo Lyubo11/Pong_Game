@@ -29,7 +29,7 @@
   <td id="projectalign">
    <div id="projectname">The Pong Game<span id="projectnumber">&#160;1.0.14</span>
    </div>
-   <div id="projectbrief">The better version of Pong game</div>
+   <div id="projectbrief">The better version of Pong game  |  https://github.com/Lyubo11/Pong_Game</div>
   </td>
  </tr>
  </tbody>
@@ -106,10 +106,13 @@ $(function(){ initResizable(false); });
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
 <tr class="memitem:ae420d914c2b35cf2b784187da44629f8" id="r_ae420d914c2b35cf2b784187da44629f8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae420d914c2b35cf2b784187da44629f8">DrawButton</a> (const char *text, Rectangle rec, Color color)</td></tr>
+<tr class="memdesc:ae420d914c2b35cf2b784187da44629f8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function to draw a button with text.  <br /></td></tr>
 <tr class="separator:ae420d914c2b35cf2b784187da44629f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab8d1f93697da62aab60e500924b9de50" id="r_ab8d1f93697da62aab60e500924b9de50"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab8d1f93697da62aab60e500924b9de50">IsButtonPressed</a> (Rectangle rec)</td></tr>
+<tr class="memdesc:ab8d1f93697da62aab60e500924b9de50"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function to check if a button is pressed.  <br /></td></tr>
 <tr class="separator:ab8d1f93697da62aab60e500924b9de50"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae66f6b31b5ad750f1fe042a706a4e3d4" id="r_ae66f6b31b5ad750f1fe042a706a4e3d4"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae66f6b31b5ad750f1fe042a706a4e3d4">main</a> ()</td></tr>
+<tr class="memdesc:ae66f6b31b5ad750f1fe042a706a4e3d4"><td class="mdescLeft">&#160;</td><td class="mdescRight">The main function where the program starts execution.  <br /></td></tr>
 <tr class="separator:ae66f6b31b5ad750f1fe042a706a4e3d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
@@ -118,24 +121,34 @@ Variables</h2></td></tr>
 <tr class="memdesc:ade92e07203a3ba6835aab188b841658f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Extern constant variable for screen dimensions (screen width)  <br /></td></tr>
 <tr class="separator:ade92e07203a3ba6835aab188b841658f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a52afc0b1078a0ef9af887430f8e8b84c" id="r_a52afc0b1078a0ef9af887430f8e8b84c"><td class="memItemLeft" align="right" valign="top">const int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a52afc0b1078a0ef9af887430f8e8b84c">screen_height</a> = 600</td></tr>
+<tr class="memdesc:a52afc0b1078a0ef9af887430f8e8b84c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Extern constant variable for screen dimensions (screen height)  <br /></td></tr>
 <tr class="separator:a52afc0b1078a0ef9af887430f8e8b84c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac3432189cb587dd0a394cbf7cc244a2b" id="r_ac3432189cb587dd0a394cbf7cc244a2b"><td class="memItemLeft" align="right" valign="top">const int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac3432189cb587dd0a394cbf7cc244a2b">x_spawn_range</a> = 20</td></tr>
+<tr class="memdesc:ac3432189cb587dd0a394cbf7cc244a2b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Extern constant variable for ball spawn range (x)  <br /></td></tr>
 <tr class="separator:ac3432189cb587dd0a394cbf7cc244a2b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a049240a1823998f3b1d709609a750b0b" id="r_a049240a1823998f3b1d709609a750b0b"><td class="memItemLeft" align="right" valign="top">const int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a049240a1823998f3b1d709609a750b0b">y_spawn_range</a> = 20</td></tr>
+<tr class="memdesc:a049240a1823998f3b1d709609a750b0b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Extern constant variable for ball spawn range (y)  <br /></td></tr>
 <tr class="separator:a049240a1823998f3b1d709609a750b0b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a88b0e7f0d74c048b26a83dfc4efb179a" id="r_a88b0e7f0d74c048b26a83dfc4efb179a"><td class="memItemLeft" align="right" valign="top">const int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a88b0e7f0d74c048b26a83dfc4efb179a">init_ball_x_speed</a> = rand() % 3 + 1</td></tr>
+<tr class="memdesc:a88b0e7f0d74c048b26a83dfc4efb179a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Extern constant variable for initial speed for the ball (x speed)  <br /></td></tr>
 <tr class="separator:a88b0e7f0d74c048b26a83dfc4efb179a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac2c79bc9bd51b426051410369b2d5ebe" id="r_ac2c79bc9bd51b426051410369b2d5ebe"><td class="memItemLeft" align="right" valign="top">const int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac2c79bc9bd51b426051410369b2d5ebe">init_ball_y_speed</a> = rand() % 3 + 1</td></tr>
+<tr class="memdesc:ac2c79bc9bd51b426051410369b2d5ebe"><td class="mdescLeft">&#160;</td><td class="mdescRight">Extern constant variable for initial speed for the ball (y speed)  <br /></td></tr>
 <tr class="separator:ac2c79bc9bd51b426051410369b2d5ebe"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1514dc52d8acbcfc9d2bc421c324372e" id="r_a1514dc52d8acbcfc9d2bc421c324372e"><td class="memItemLeft" align="right" valign="top">const int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1514dc52d8acbcfc9d2bc421c324372e">winning_score</a> = 10</td></tr>
+<tr class="memdesc:a1514dc52d8acbcfc9d2bc421c324372e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constant variable for winning score.  <br /></td></tr>
 <tr class="separator:a1514dc52d8acbcfc9d2bc421c324372e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2307b939e6a5549941df1df728c919f8" id="r_a2307b939e6a5549941df1df728c919f8"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2307b939e6a5549941df1df728c919f8">left_player_score</a> = 0</td></tr>
+<tr class="memdesc:a2307b939e6a5549941df1df728c919f8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Variable for left player score.  <br /></td></tr>
 <tr class="separator:a2307b939e6a5549941df1df728c919f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6dde663c738b2de95e63770a2c30fbf1" id="r_a6dde663c738b2de95e63770a2c30fbf1"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6dde663c738b2de95e63770a2c30fbf1">right_player_score</a> = 0</td></tr>
+<tr class="memdesc:a6dde663c738b2de95e63770a2c30fbf1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Variable for right player score.  <br /></td></tr>
 <tr class="separator:a6dde663c738b2de95e63770a2c30fbf1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aaa8329eb8d187fdf971de900f6f701a4" id="r_aaa8329eb8d187fdf971de900f6f701a4"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aaa8329eb8d187fdf971de900f6f701a4">game_mode</a> = false</td></tr>
+<tr class="memdesc:aaa8329eb8d187fdf971de900f6f701a4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Variable for game mode (false for PVP, true for Player vs AI)  <br /></td></tr>
 <tr class="separator:aaa8329eb8d187fdf971de900f6f701a4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4a0e1816e9c64db12fa17d4b69fa117a" id="r_a4a0e1816e9c64db12fa17d4b69fa117a"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4a0e1816e9c64db12fa17d4b69fa117a">mode_selected</a> = false</td></tr>
+<tr class="memdesc:a4a0e1816e9c64db12fa17d4b69fa117a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Variable for checking if mode is selected.  <br /></td></tr>
 <tr class="separator:a4a0e1816e9c64db12fa17d4b69fa117a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
@@ -163,6 +176,16 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Function to draw a button with text. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">text</td><td>The text to display on the button. </td></tr>
+    <tr><td class="paramname">rec</td><td>The rectangle representing the button's position and size. </td></tr>
+    <tr><td class="paramname">color</td><td>The color of the button. </td></tr>
+  </table>
+  </dd>
+</dl>
+
 </div>
 </div>
 <a id="ab8d1f93697da62aab60e500924b9de50" name="ab8d1f93697da62aab60e500924b9de50"></a>
@@ -179,6 +202,15 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Function to check if a button is pressed. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">rec</td><td>The rectangle representing the button's position and size.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>true if the button is pressed, false otherwise. </dd></dl>
 
 </div>
 </div>
@@ -197,6 +229,10 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>The main function where the program starts execution. </p>
+<p>This function initializes the game window, sets up the game objects (ball and paddles), and enters the main game loop. The game loop handles game mode selection, updates game objects, checks for collisions and scoring, and renders the game frame by frame. The game continues running until the window is closed by the user.</p>
+<dl class="section return"><dt>Returns</dt><dd>Exit status of the program. </dd></dl>
+
 </div>
 </div>
 <h2 class="groupheader">Variable Documentation</h2>
@@ -212,6 +248,10 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Variable for game mode (false for PVP, true for Player vs AI) </p>
+<div class="fragment"><div class="line"><span class="keywordtype">bool</span> <a class="code hl_variable" href="#aaa8329eb8d187fdf971de900f6f701a4">game_mode</a> = <span class="keyword">false</span>;</div>
+<div class="ttc" id="amain_8cpp_html_aaa8329eb8d187fdf971de900f6f701a4"><div class="ttname"><a href="#aaa8329eb8d187fdf971de900f6f701a4">game_mode</a></div><div class="ttdeci">bool game_mode</div><div class="ttdoc">Variable for game mode (false for PVP, true for Player vs AI)</div><div class="ttdef"><b>Definition</b> main.cpp:85</div></div>
+</div><!-- fragment --> 
 </div>
 </div>
 <a id="a88b0e7f0d74c048b26a83dfc4efb179a" name="a88b0e7f0d74c048b26a83dfc4efb179a"></a>
@@ -234,6 +274,10 @@ Variables</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Extern constant variable for initial speed for the ball (x speed) </p>
+<div class="fragment"><div class="line"><span class="keyword">extern</span> <span class="keyword">const</span> <span class="keywordtype">int</span> <a class="code hl_variable" href="ball_8cpp.html#a88b0e7f0d74c048b26a83dfc4efb179a">init_ball_x_speed</a> = rand() % 3 + 1;</div>
+<div class="ttc" id="aball_8cpp_html_a88b0e7f0d74c048b26a83dfc4efb179a"><div class="ttname"><a href="ball_8cpp.html#a88b0e7f0d74c048b26a83dfc4efb179a">init_ball_x_speed</a></div><div class="ttdeci">const int init_ball_x_speed</div><div class="ttdoc">Extern constant variable for initial speed for the ball (x speed)</div></div>
+</div><!-- fragment --> 
 </div>
 </div>
 <a id="ac2c79bc9bd51b426051410369b2d5ebe" name="ac2c79bc9bd51b426051410369b2d5ebe"></a>
@@ -256,6 +300,10 @@ Variables</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Extern constant variable for initial speed for the ball (y speed) </p>
+<div class="fragment"><div class="line"><span class="keyword">extern</span> <span class="keyword">const</span> <span class="keywordtype">int</span> <a class="code hl_variable" href="ball_8cpp.html#ac2c79bc9bd51b426051410369b2d5ebe">init_ball_y_speed</a> = rand() % 3 + 1;</div>
+<div class="ttc" id="aball_8cpp_html_ac2c79bc9bd51b426051410369b2d5ebe"><div class="ttname"><a href="ball_8cpp.html#ac2c79bc9bd51b426051410369b2d5ebe">init_ball_y_speed</a></div><div class="ttdeci">const int init_ball_y_speed</div><div class="ttdoc">Extern constant variable for initial speed for the ball (y speed)</div></div>
+</div><!-- fragment --> 
 </div>
 </div>
 <a id="a2307b939e6a5549941df1df728c919f8" name="a2307b939e6a5549941df1df728c919f8"></a>
@@ -270,6 +318,10 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Variable for left player score. </p>
+<div class="fragment"><div class="line"><span class="keywordtype">int</span> <a class="code hl_variable" href="#a2307b939e6a5549941df1df728c919f8">left_player_score</a> = 0;</div>
+<div class="ttc" id="amain_8cpp_html_a2307b939e6a5549941df1df728c919f8"><div class="ttname"><a href="#a2307b939e6a5549941df1df728c919f8">left_player_score</a></div><div class="ttdeci">int left_player_score</div><div class="ttdoc">Variable for left player score.</div><div class="ttdef"><b>Definition</b> main.cpp:69</div></div>
+</div><!-- fragment --> 
 </div>
 </div>
 <a id="a4a0e1816e9c64db12fa17d4b69fa117a" name="a4a0e1816e9c64db12fa17d4b69fa117a"></a>
@@ -284,6 +336,10 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Variable for checking if mode is selected. </p>
+<div class="fragment"><div class="line"><span class="keywordtype">bool</span> <a class="code hl_variable" href="#a4a0e1816e9c64db12fa17d4b69fa117a">mode_selected</a> = <span class="keyword">false</span>;</div>
+<div class="ttc" id="amain_8cpp_html_a4a0e1816e9c64db12fa17d4b69fa117a"><div class="ttname"><a href="#a4a0e1816e9c64db12fa17d4b69fa117a">mode_selected</a></div><div class="ttdeci">bool mode_selected</div><div class="ttdoc">Variable for checking if mode is selected.</div><div class="ttdef"><b>Definition</b> main.cpp:93</div></div>
+</div><!-- fragment --> 
 </div>
 </div>
 <a id="a6dde663c738b2de95e63770a2c30fbf1" name="a6dde663c738b2de95e63770a2c30fbf1"></a>
@@ -298,6 +354,10 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Variable for right player score. </p>
+<div class="fragment"><div class="line"><span class="keywordtype">int</span> <a class="code hl_variable" href="#a6dde663c738b2de95e63770a2c30fbf1">right_player_score</a> = 0;</div>
+<div class="ttc" id="amain_8cpp_html_a6dde663c738b2de95e63770a2c30fbf1"><div class="ttname"><a href="#a6dde663c738b2de95e63770a2c30fbf1">right_player_score</a></div><div class="ttdeci">int right_player_score</div><div class="ttdoc">Variable for right player score.</div><div class="ttdef"><b>Definition</b> main.cpp:77</div></div>
+</div><!-- fragment --> 
 </div>
 </div>
 <a id="a52afc0b1078a0ef9af887430f8e8b84c" name="a52afc0b1078a0ef9af887430f8e8b84c"></a>
@@ -320,6 +380,10 @@ Variables</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Extern constant variable for screen dimensions (screen height) </p>
+<div class="fragment"><div class="line"><span class="keyword">extern</span> <span class="keyword">const</span> <span class="keywordtype">int</span> <a class="code hl_variable" href="ball_8cpp.html#a52afc0b1078a0ef9af887430f8e8b84c">screen_height</a> = 600;</div>
+<div class="ttc" id="aball_8cpp_html_a52afc0b1078a0ef9af887430f8e8b84c"><div class="ttname"><a href="ball_8cpp.html#a52afc0b1078a0ef9af887430f8e8b84c">screen_height</a></div><div class="ttdeci">const int screen_height</div><div class="ttdoc">Extern constant variable for screen dimensions (screen height)</div></div>
+</div><!-- fragment --> 
 </div>
 </div>
 <a id="ade92e07203a3ba6835aab188b841658f" name="ade92e07203a3ba6835aab188b841658f"></a>
@@ -344,7 +408,7 @@ Variables</h2></td></tr>
 
 <p>Extern constant variable for screen dimensions (screen width) </p>
 <div class="fragment"><div class="line"><span class="keyword">extern</span> <span class="keyword">const</span> <span class="keywordtype">int</span> <a class="code hl_variable" href="ball_8cpp.html#ade92e07203a3ba6835aab188b841658f">screen_width</a> = 800;</div>
-<div class="ttc" id="aball_8cpp_html_ade92e07203a3ba6835aab188b841658f"><div class="ttname"><a href="ball_8cpp.html#ade92e07203a3ba6835aab188b841658f">screen_width</a></div><div class="ttdeci">const int screen_width</div></div>
+<div class="ttc" id="aball_8cpp_html_ade92e07203a3ba6835aab188b841658f"><div class="ttname"><a href="ball_8cpp.html#ade92e07203a3ba6835aab188b841658f">screen_width</a></div><div class="ttdeci">const int screen_width</div><div class="ttdoc">Extern constant variable for screen dimensions (screen width)</div></div>
 </div><!-- fragment --> 
 </div>
 </div>
@@ -360,6 +424,10 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Constant variable for winning score. </p>
+<div class="fragment"><div class="line"><span class="keyword">const</span> <span class="keywordtype">int</span> <a class="code hl_variable" href="#a1514dc52d8acbcfc9d2bc421c324372e">winning_score</a> = 10;</div>
+<div class="ttc" id="amain_8cpp_html_a1514dc52d8acbcfc9d2bc421c324372e"><div class="ttname"><a href="#a1514dc52d8acbcfc9d2bc421c324372e">winning_score</a></div><div class="ttdeci">const int winning_score</div><div class="ttdoc">Constant variable for winning score.</div><div class="ttdef"><b>Definition</b> main.cpp:61</div></div>
+</div><!-- fragment --> 
 </div>
 </div>
 <a id="ac3432189cb587dd0a394cbf7cc244a2b" name="ac3432189cb587dd0a394cbf7cc244a2b"></a>
@@ -382,6 +450,10 @@ Variables</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Extern constant variable for ball spawn range (x) </p>
+<div class="fragment"><div class="line"><span class="keyword">extern</span> <span class="keyword">const</span> <span class="keywordtype">int</span> <a class="code hl_variable" href="ball_8cpp.html#ac3432189cb587dd0a394cbf7cc244a2b">x_spawn_range</a> = 20;</div>
+<div class="ttc" id="aball_8cpp_html_ac3432189cb587dd0a394cbf7cc244a2b"><div class="ttname"><a href="ball_8cpp.html#ac3432189cb587dd0a394cbf7cc244a2b">x_spawn_range</a></div><div class="ttdeci">const int x_spawn_range</div><div class="ttdoc">Extern constant variable for ball spawn range (x)</div></div>
+</div><!-- fragment --> 
 </div>
 </div>
 <a id="a049240a1823998f3b1d709609a750b0b" name="a049240a1823998f3b1d709609a750b0b"></a>
@@ -404,6 +476,10 @@ Variables</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Extern constant variable for ball spawn range (y) </p>
+<div class="fragment"><div class="line"><span class="keyword">extern</span> <span class="keyword">const</span> <span class="keywordtype">int</span> <a class="code hl_variable" href="ball_8cpp.html#a049240a1823998f3b1d709609a750b0b">y_spawn_range</a> = 20;</div>
+<div class="ttc" id="aball_8cpp_html_a049240a1823998f3b1d709609a750b0b"><div class="ttname"><a href="ball_8cpp.html#a049240a1823998f3b1d709609a750b0b">y_spawn_range</a></div><div class="ttdeci">const int y_spawn_range</div><div class="ttdoc">Extern constant variable for ball spawn range (y)</div></div>
+</div><!-- fragment --> 
 </div>
 </div>
 </div><!-- contents -->
